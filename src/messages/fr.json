@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "siteName": "ARTAE USA",
+    "defaultTitle": "ARTAE USA | Investissement locatif clé en main en Floride",
+    "defaultDescription": "ARTAE USA accompagne les investisseurs internationaux et locaux dans l'achat, la rénovation, l'ameublement et la mise en location de biens en Floride — un service entièrement clé en main."
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Je discute de mon projet"
+  },
+  "footer": {
+    "tagline": "Investissement locatif clé en main en Floride, pour une clientèle bilingue.",
+    "servicesTitle": "Services",
+    "companyTitle": "Entreprise",
+    "contactTitle": "Contact",
+    "addressLabel": "Bureau",
+    "emailLabel": "Email",
+    "phoneLabel": "Téléphone",
+    "rights": "© {year} ARTAE USA LLC. Tous droits réservés.",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "newsletterTitle": "Restez informé",
+    "newsletterSubtitle": "Les tendances du marché floridien et nos nouvelles opportunités, une fois par mois.",
+    "newsletterPlaceholder": "Votre adresse email",
+    "newsletterSubmit": "S'inscrire",
+    "newsletterSuccess": "Merci, votre inscription est confirmée.",
+    "newsletterError": "Une erreur est survenue. Merci de réessayer."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Investissement locatif clé en main — Floride",
+      "title": "Investissez dans l'immobilier en Floride, entièrement clé en main",
+      "subtitle": "ARTAE USA sélectionne, rénove, meuble et met en location votre bien locatif dans le sud de la Floride — pour investir en toute sérénité, où que vous soyez dans le monde.",
+      "ctaPrimary": "Je discute de mon projet",
+      "ctaSecondary": "Découvrir nos services",
+      "ratingText": "4,9 / 5 de satisfaction sur plus de 300 projets réalisés par le groupe Artae"
+    },
+    "stats": {
+      "title": "Artae en chiffres",
+      "items": [
+        { "value": "300+", "label": "Projets réalisés par le groupe Artae" },
+        { "value": "4,9/5", "label": "Satisfaction client moyenne" },
+        { "value": "9%+", "label": "Rendement locatif brut moyen" },
+        { "value": "2", "label": "Langues, une seule équipe dédiée — EN / FR" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Ce que nous faisons",
+      "title": "Un seul interlocuteur, de la recherche à la mise en location",
+      "subtitle": "Nous gérons chaque étape de votre investissement locatif en Floride, sans que vous ayez besoin d'être sur place.",
+      "items": [
+        {
+          "title": "Recherche & acquisition",
+          "description": "Nous identifions des biens off-market et sur le marché correspondant à votre budget, vos objectifs et le rendement visé."
+        },
+        {
+          "title": "Rénovation",
+          "description": "Nous pilotons l'ensemble des travaux avec notre réseau d'artisans locaux qualifiés, dans les délais et le budget prévus."
+        },
+        {
+          "title": "Ameublement & décoration",
+          "description": "Nous concevons et meublons le bien pour qu'il séduise des locataires de qualité dès sa mise en location."
+        },
+        {
+          "title": "Mise en location & gestion",
+          "description": "Nous trouvons le locataire et assurons la gestion locative continue, pour un investissement qui tourne seul."
+        }
+      ],
+      "cta": "Voir tous les services"
+    },
+    "projects": {
+      "eyebrow": "Nos réalisations",
+      "title": "Projets récemment livrés",
+      "subtitle": "Un aperçu des biens acquis, rénovés et loués pour nos investisseurs dans le sud de la Floride.",
+      "cta": "Voir tous les projets",
+      "acquisitionLabel": "Acquisition",
+      "renovationLabel": "Rénovation",
+      "rentLabel": "Loyer mensuel",
+      "yieldLabel": "Rendement brut"
+    },
+    "testimonials": {
+      "eyebrow": "Avis clients",
+      "title": "La confiance d'investisseurs aux États-Unis, en France et au Québec",
+      "items": [
+        {
+          "quote": "ARTAE USA a tout géré à distance pendant que j'étais à Paris. Le bien a été loué en trois semaines après la signature.",
+          "author": "Sébastien M.",
+          "role": "Investisseur, Paris, France"
+        },
+        {
+          "quote": "En tant qu'investisseur basé au Québec, avoir une équipe bilingue qui comprend les deux marchés a tout changé.",
+          "author": "Isabelle T.",
+          "role": "Investisseuse, Montréal, Québec"
+        },
+        {
+          "quote": "Budget transparent, calendrier clair, et un rendement locatif exactement conforme à ce qui avait été annoncé.",
+          "author": "David R.",
+          "role": "Investisseur, Miami, FL"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "question": "Dois-je être résident américain pour investir ?",
+          "answer": "Non. Nous accompagnons régulièrement des investisseurs étrangers, notamment basés en France et au Québec, et pouvons vous orienter sur le financement, les aspects juridiques et fiscaux grâce à notre réseau de partenaires."
+        },
+        {
+          "question": "Dans quelles zones investissez-vous ?",
+          "answer": "Nous nous concentrons sur les comtés de Broward et Miami-Dade dans le sud de la Floride, notamment Lauderhill, Hollywood, Fort Lauderdale et Miami, où la demande locative est la plus forte."
+        },
+        {
+          "question": "Combien de temps dure un projet clé en main ?",
+          "answer": "En moyenne, entre 4 et 8 mois entre la signature de l'acquisition et un bien loué et générateur de revenus, selon l'ampleur de la rénovation."
+        },
+        {
+          "question": "Pouvez-vous gérer le bien une fois loué ?",
+          "answer": "Oui. Nous proposons une gestion locative continue pour que vous puissiez continuer à investir sans vous en occuper, où que vous soyez."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à investir dans l'immobilier en Floride ?",
+      "subtitle": "Parlez-nous de votre projet — nous vous répondons sous un jour ouvré.",
+      "button": "Je discute de mon projet"
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Nos services",
+      "title": "Un investissement clé en main, de A à Z",
+      "subtitle": "Investir dans l'immobilier en Floride n'a jamais été aussi simple : nous nous occupons de chaque étape pour faire de votre investissement une réussite."
+    },
+    "steps": {
+      "title": "Notre méthode",
+      "subtitle": "Une équipe dédiée pilote votre projet en quatre étapes, avec une visibilité totale à chaque instant.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Recherche & acquisition",
+          "description": "Nous définissons votre stratégie d'investissement — objectifs, horizon, budget, zone géographique — puis dénichons le bien correspondant, réalisons l'analyse financière et vous accompagnons jusqu'à la signature."
+        },
+        {
+          "number": "02",
+          "title": "Rénovation",
+          "description": "Nous validons avec vous le périmètre des travaux et coordonnons notre réseau d'artisans locaux qualifiés, en suivant budget et délais."
+        },
+        {
+          "number": "03",
+          "title": "Ameublement & agencement",
+          "description": "Nous réalisons des plans d'agencement 2D/3D et meublons le bien pour maximiser à la fois son attractivité locative et ses revenus."
+        },
+        {
+          "number": "04",
+          "title": "Mise en location & gestion",
+          "description": "Nous commercialisons le bien, sélectionnons le locataire, et pouvons poursuivre la gestion sur le long terme pour un investissement sans contrainte."
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "Pourquoi ARTAE USA",
+      "title": "Pensé pour une clientèle bilingue et internationale",
+      "items": [
+        { "title": "Équipe bilingue", "description": "Chaque étape de votre projet, du premier échange à la signature du bail, est disponible en anglais et en français." },
+        { "title": "Expertise locale", "description": "Une connaissance de terrain du marché locatif du sud de la Floride, de ses artisans et de sa réglementation." },
+        { "title": "Transparence totale", "description": "Un budget clair, un calendrier clair, des points réguliers — sans mauvaise surprise." },
+        { "title": "Membre du groupe Artae", "description": "Adossé à l'expérience d'Artae Immobilier, avec plus de 300 projets réalisés en France." }
+      ]
+    },
+    "cta": {
+      "title": "Définissons votre projet ensemble",
+      "subtitle": "Partagez vos objectifs et votre budget — nous vous proposons un plan d'investissement sur mesure.",
+      "button": "Je discute de mon projet"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "À propos",
+      "title": "La branche américaine du groupe Artae",
+      "subtitle": "ARTAE USA LLC déploie l'expertise du groupe Artae en investissement locatif clé en main sur le marché floridien, pour une clientèle bilingue aux États-Unis, en France et au Québec."
+    },
+    "story": {
+      "eyebrow": "Notre histoire",
+      "title": "De la France à la Floride",
+      "paragraphs": [
+        "Artae a été fondé en France pour rendre l'investissement locatif simple, transparent et accessible — en réunissant recherche, rénovation, ameublement et gestion sous un même toit. Le groupe a depuis réalisé plus de 300 projets pour des investisseurs partout en France.",
+        "ARTAE USA LLC, basée à Lauderhill en Floride, étend ce même modèle clé en main au marché américain. Nous accompagnons aussi bien des investisseurs américains que des acheteurs basés en France et au Québec souhaitant diversifier leur patrimoine vers l'immobilier américain, avec une expérience entièrement bilingue de bout en bout.",
+        "Notre équipe combine une connaissance de terrain du marché locatif du sud de la Floride avec la rigueur opérationnelle développée sur des centaines de projets à l'international."
+      ]
+    },
+    "values": {
+      "eyebrow": "Nos valeurs",
+      "title": "Ce qui guide notre travail",
+      "items": [
+        { "title": "Transparence", "description": "Des chiffres clairs, des délais clairs, une communication honnête à chaque étape de votre projet." },
+        { "title": "Responsabilité", "description": "Nous traitons chaque bien comme s'il s'agissait de notre propre investissement, de l'acquisition à la mise en location." },
+        { "title": "Accessibilité", "description": "Une équipe bilingue qui rend l'investissement à distance aussi simple qu'un investissement local." },
+        { "title": "Exigence", "description": "Des choix de rénovation et d'ameublement qui protègent à la fois l'attractivité locative et la valeur du bien sur le long terme." }
+      ]
+    },
+    "cta": {
+      "title": "Envie d'en savoir plus sur notre approche ?",
+      "subtitle": "Parlons de vos objectifs et de la façon dont ARTAE USA peut vous accompagner.",
+      "button": "Nous contacter"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Parlons de votre projet",
+      "subtitle": "Remplissez le formulaire ci-dessous ou contactez-nous directement — notre équipe bilingue répond généralement sous un jour ouvré."
+    },
+    "form": {
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Jean Dupont",
+      "emailLabel": "Email",
+      "emailPlaceholder": "jean@email.com",
+      "phoneLabel": "Téléphone (optionnel)",
+      "phonePlaceholder": "+1 (954) 000-0000",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Parlez-nous de vos objectifs d'investissement...",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "success": "Merci — votre message a bien été envoyé. Nous revenons vers vous rapidement.",
+      "error": "Une erreur est survenue. Merci de réessayer ou de nous écrire directement."
+    },
+    "info": {
+      "title": "Nos coordonnées",
+      "addressLabel": "Bureau",
+      "emailLabel": "Email",
+      "phoneLabel": "Téléphone",
+      "hoursLabel": "Horaires",
+      "hoursValue": "Lun.–Ven., 9h–18h (heure de l'Est)"
+    }
+  },
+  "company": {
+    "name": "ARTAE USA LLC",
+    "addressLine1": "4300 N University Drive, Suite B-100",
+    "addressLine2": "Lauderhill, FL 33351",
+    "email": "thibaud@artae.immo",
+    "phone": "+1 (954) 000-0000"
+  }
+}

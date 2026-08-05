@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "siteName": "ARTAE USA",
+    "defaultTitle": "ARTAE USA | Turnkey Rental Investment in Florida",
+    "defaultDescription": "ARTAE USA helps international and local investors buy, renovate, furnish and rent out property in Florida — fully turnkey, from sourcing to leasing."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Discuss my project"
+  },
+  "footer": {
+    "tagline": "Turnkey rental investment in Florida, for a bilingual clientele.",
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "contactTitle": "Contact",
+    "addressLabel": "Office",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "rights": "© {year} ARTAE USA LLC. All rights reserved.",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "newsletterTitle": "Stay informed",
+    "newsletterSubtitle": "Florida market insights and new opportunities, once a month.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterSubmit": "Subscribe",
+    "newsletterSuccess": "Thank you, you're subscribed.",
+    "newsletterError": "Something went wrong. Please try again."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Turnkey rental investment — Florida",
+      "title": "Invest in Florida real estate, entirely turnkey",
+      "subtitle": "ARTAE USA sources, renovates, furnishes and manages the lease-up of your rental property in South Florida — so you can invest with confidence from anywhere in the world.",
+      "ctaPrimary": "Discuss my project",
+      "ctaSecondary": "Explore our services",
+      "ratingText": "4.9 / 5 satisfaction across 300+ projects delivered by the Artae group"
+    },
+    "stats": {
+      "title": "Artae in numbers",
+      "items": [
+        { "value": "300+", "label": "Projects delivered by the Artae group" },
+        { "value": "4.9/5", "label": "Average client satisfaction" },
+        { "value": "9%+", "label": "Average gross rental yield" },
+        { "value": "2", "label": "Languages, one dedicated team — EN / FR" }
+      ]
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "A single partner, from search to lease",
+      "subtitle": "We handle every step of your rental investment in Florida, so you don't have to be on the ground.",
+      "items": [
+        {
+          "title": "Sourcing & acquisition",
+          "description": "We identify off-market and on-market properties that match your budget, goals and target yield."
+        },
+        {
+          "title": "Renovation",
+          "description": "We manage the full renovation with our network of vetted local contractors, on time and on budget."
+        },
+        {
+          "title": "Furnishing & staging",
+          "description": "We design and furnish the property so it's ready to attract quality tenants from day one."
+        },
+        {
+          "title": "Leasing & management",
+          "description": "We handle tenant placement and ongoing property management, so your investment runs itself."
+        }
+      ],
+      "cta": "See all services"
+    },
+    "projects": {
+      "eyebrow": "Track record",
+      "title": "Recently delivered projects",
+      "subtitle": "A sample of properties acquired, renovated and leased for our investors in South Florida.",
+      "cta": "View all projects",
+      "acquisitionLabel": "Acquisition",
+      "renovationLabel": "Renovation",
+      "rentLabel": "Monthly rent",
+      "yieldLabel": "Gross yield"
+    },
+    "testimonials": {
+      "eyebrow": "Client feedback",
+      "title": "Trusted by investors in the US, France and Québec",
+      "items": [
+        {
+          "quote": "ARTAE USA managed everything remotely while I was in Paris. The property was leased within three weeks of closing.",
+          "author": "Sébastien M.",
+          "role": "Investor, Paris, France"
+        },
+        {
+          "quote": "As a Québec-based investor, having a bilingual team that understands both markets made all the difference.",
+          "author": "Isabelle T.",
+          "role": "Investor, Montréal, Québec"
+        },
+        {
+          "quote": "Transparent budget, clear timeline, and a rental yield that matched exactly what was promised.",
+          "author": "David R.",
+          "role": "Investor, Miami, FL"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Do I need to be a US resident to invest?",
+          "answer": "No. We regularly work with foreign national investors, including buyers based in France and Québec, and can guide you through financing, legal and tax considerations with our partner network."
+        },
+        {
+          "question": "Which areas do you invest in?",
+          "answer": "We focus on Broward and Miami-Dade counties in South Florida, including Lauderhill, Hollywood, Fort Lauderdale and Miami, where rental demand is strongest."
+        },
+        {
+          "question": "How long does a turnkey project take?",
+          "answer": "On average, 4 to 8 months from signed acquisition to a leased, income-producing property, depending on the scope of renovation."
+        },
+        {
+          "question": "Can you manage the property after it's leased?",
+          "answer": "Yes. We offer ongoing property management so you can keep investing hands-off, wherever you are."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to invest in Florida real estate?",
+      "subtitle": "Tell us about your project — we'll get back to you within one business day.",
+      "button": "Discuss my project"
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Our services",
+      "title": "Turnkey investment, from A to Z",
+      "subtitle": "Investing in Florida real estate has never been simpler: we take care of every step so your investment becomes a success."
+    },
+    "steps": {
+      "title": "Our process",
+      "subtitle": "One dedicated team guides your project through four stages, with full visibility at every step.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Sourcing & acquisition",
+          "description": "We define your investment strategy — goals, horizon, budget, target area — then find the property that matches, run the financial analysis and guide you through closing."
+        },
+        {
+          "number": "02",
+          "title": "Renovation",
+          "description": "We validate the renovation scope with you and coordinate our network of vetted local contractors, tracking budget and timeline."
+        },
+        {
+          "number": "03",
+          "title": "Furnishing & design",
+          "description": "We produce 2D/3D layout plans and furnish the property to maximize both tenant appeal and rental income."
+        },
+        {
+          "number": "04",
+          "title": "Leasing & management",
+          "description": "We market the property, screen tenants, and can continue managing it long-term so your investment stays hands-off."
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "Why ARTAE USA",
+      "title": "Built for a bilingual, international clientele",
+      "items": [
+        { "title": "Bilingual team", "description": "Every step of your project, from first call to lease signing, is available in English and French." },
+        { "title": "Local expertise", "description": "Boots-on-the-ground knowledge of South Florida's rental market, contractors and regulations." },
+        { "title": "Full transparency", "description": "Clear budget, clear timeline, regular updates — no surprises." },
+        { "title": "Part of the Artae group", "description": "Backed by the experience of Artae Immobilier, with 300+ projects delivered in France." }
+      ]
+    },
+    "cta": {
+      "title": "Let's scope your project together",
+      "subtitle": "Share your goals and budget — we'll propose a tailored investment plan.",
+      "button": "Discuss my project"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About us",
+      "title": "The US branch of the Artae group",
+      "subtitle": "ARTAE USA LLC brings the Artae group's turnkey rental investment expertise to the Florida market, for a bilingual clientele in the US, France and Québec."
+    },
+    "story": {
+      "eyebrow": "Our story",
+      "title": "From France to Florida",
+      "paragraphs": [
+        "Artae was founded in France to make rental investing simple, transparent and accessible — handling sourcing, renovation, furnishing and management under one roof. The group has since delivered more than 300 projects for investors across France.",
+        "ARTAE USA LLC, based in Lauderhill, Florida, extends that same turnkey model to the US market. We work with American investors as well as French and Québec-based buyers looking to diversify into US real estate, offering a fully bilingual experience end to end.",
+        "Our team combines on-the-ground knowledge of South Florida's rental market with the operational rigor developed over hundreds of projects abroad."
+      ]
+    },
+    "values": {
+      "eyebrow": "Our values",
+      "title": "What guides our work",
+      "items": [
+        { "title": "Transparency", "description": "Clear numbers, clear timelines, and honest communication at every stage of your project." },
+        { "title": "Accountability", "description": "We treat every property as if it were our own investment, from acquisition to lease-up." },
+        { "title": "Accessibility", "description": "A bilingual team that makes investing from abroad as simple as investing locally." },
+        { "title": "Craftsmanship", "description": "Renovation and furnishing decisions that protect both rental appeal and long-term asset value." }
+      ]
+    },
+    "cta": {
+      "title": "Want to know more about our approach?",
+      "subtitle": "Let's talk about your goals and how ARTAE USA can help.",
+      "button": "Get in touch"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your project",
+      "subtitle": "Fill out the form below or reach us directly — our bilingual team typically replies within one business day."
+    },
+    "form": {
+      "nameLabel": "Full name",
+      "namePlaceholder": "Jane Smith",
+      "emailLabel": "Email",
+      "emailPlaceholder": "jane@email.com",
+      "phoneLabel": "Phone (optional)",
+      "phonePlaceholder": "+1 (954) 000-0000",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your investment goals...",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Thank you — your message has been sent. We'll be in touch shortly.",
+      "error": "Something went wrong. Please try again or email us directly."
+    },
+    "info": {
+      "title": "Our details",
+      "addressLabel": "Office",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "hoursLabel": "Hours",
+      "hoursValue": "Mon–Fri, 9am–6pm ET"
+    }
+  },
+  "company": {
+    "name": "ARTAE USA LLC",
+    "addressLine1": "4300 N University Drive, Suite B-100",
+    "addressLine2": "Lauderhill, FL 33351",
+    "email": "thibaud@artae.immo",
+    "phone": "+1 (954) 000-0000"
+  }
+}
