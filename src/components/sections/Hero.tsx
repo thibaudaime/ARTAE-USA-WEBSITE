@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/Button";
+import { Cartouche } from "@/components/ui/Cartouche";
 
 export function Hero() {
   const t = useTranslations("home.hero");
@@ -7,13 +8,11 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden bg-black">
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_0%,rgba(201,162,39,0.25),transparent_55%),radial-gradient(circle_at_10%_100%,rgba(139,142,62,0.25),transparent_55%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_0%,rgba(198,159,99,0.25),transparent_55%),radial-gradient(circle_at_10%_100%,rgba(113,122,39,0.25),transparent_55%)]" />
       </div>
 
       <div className="relative mx-auto flex max-w-7xl flex-col gap-8 px-6 py-28 lg:px-8 lg:py-40">
-        <span className="font-heading text-sm font-semibold uppercase tracking-widest text-mustard">
-          {t("eyebrow")}
-        </span>
+        <Cartouche>{t("eyebrow")}</Cartouche>
         <h1 className="max-w-3xl font-heading text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
           {t("title")}
         </h1>

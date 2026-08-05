@@ -1,3 +1,5 @@
+import { Cartouche } from "@/components/ui/Cartouche";
+
 interface SectionTitleProps {
   eyebrow?: string;
   title: string;
@@ -17,15 +19,7 @@ export function SectionTitle({
 
   return (
     <div className={`flex max-w-2xl flex-col gap-4 ${alignClasses}`}>
-      {eyebrow ? (
-        <span
-          className={`font-heading text-sm font-semibold uppercase tracking-widest ${
-            light ? "text-mustard" : "text-gold"
-          }`}
-        >
-          {eyebrow}
-        </span>
-      ) : null}
+      {eyebrow ? <Cartouche className={align === "center" ? "mx-auto" : ""}>{eyebrow}</Cartouche> : null}
       <h2
         className={`font-heading text-3xl font-bold sm:text-4xl ${
           light ? "text-white" : "text-ink"

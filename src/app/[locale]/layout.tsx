@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display, Poppins } from "next/font/google";
+import { Abhaya_Libre, Montserrat } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -8,21 +8,16 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "../globals.css";
 
-const playfair = Playfair_Display({
+const abhayaLibre = Abhaya_Libre({
   subsets: ["latin"],
-  variable: "--font-playfair",
-  weight: ["600", "700"],
+  variable: "--font-abhaya",
+  weight: ["600", "700", "800"],
 });
 
-const poppins = Poppins({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-poppins",
-  weight: ["400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-montserrat",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export function generateStaticParams() {
@@ -61,7 +56,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${playfair.variable} ${poppins.variable} ${inter.variable} antialiased`}
+        className={`${abhayaLibre.variable} ${montserrat.variable} antialiased`}
       >
         <NextIntlClientProvider>
           <div className="flex min-h-screen flex-col">
