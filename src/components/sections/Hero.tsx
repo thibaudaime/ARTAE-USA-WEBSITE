@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/Button";
 import { Cartouche } from "@/components/ui/Cartouche";
+import { WaveDivider } from "@/components/ui/WaveDivider";
 
 export function Hero() {
   const t = useTranslations("home.hero");
@@ -34,6 +35,8 @@ export function Hero() {
           <p className="text-sm text-white/60">{t("ratingText")}</p>
         </div>
       </div>
+
+      <WaveDivider />
     </section>
   );
 }
