@@ -101,6 +101,8 @@ html[lang="fr"] .en { display: none !important; }
 .nav a { color: var(--ink); font-weight: 600; font-size: .95rem; }
 .nav a:hover, .nav a.active { color: var(--olive); text-decoration: none; }
 .nav .btn { padding: 11px 18px; font-size: .9rem; }
+.nav .btn-black, .nav .btn-black:hover { color: #fff; background: var(--black); }
+.nav .btn-black:hover { background: var(--olive); }
 .lang {
   border: 1.5px solid var(--black); background: transparent; color: var(--black);
   border-radius: 999px; padding: 7px 14px; font-weight: 700; font-size: .82rem;
