@@ -47,12 +47,18 @@ p { margin: 0 0 1em; }
 .section.dark h2, .section.dark h3 { color: #fff; }
 .section.dark.slim { padding: 16px 0; font-size: .92rem; }
 .section.dark.slim .split { gap: 32px; }
-.section.dark.slim h2 { font-size: clamp(1.1rem, 2vw, 1.35rem); margin-bottom: .4em; }
-.section.dark.slim h3 { font-size: 1rem; margin-bottom: .4em; }
+.section.dark.slim h2, .section.dark.slim h3 { font-size: 1.2rem; font-weight: 700; line-height: 1.2; margin: 0 0 .5em; }
 .section.dark.slim .checks { margin-bottom: 0; }
 .section.dark.slim .checks li { margin-bottom: 4px; line-height: 1.4; }
 .section.dark.slim .checks li::before { top: 3px; }
-.section.dark.slim .panel { padding: 10px 24px; }
+.section.dark.slim .split { gap: 0; align-items: stretch; }
+.section.dark.slim .split > div { padding: 6px 0; }
+.section.dark.slim .split > div:first-child { padding-right: 36px; }
+.section.dark.slim .split > .panel { background: none; border-radius: 0; border-left: 2px solid var(--brown); padding: 6px 0 6px 36px; }
+@media (max-width: 860px) {
+  .section.dark.slim .split > div:first-child { padding-right: 0; padding-bottom: 14px; }
+  .section.dark.slim .split > .panel { border-left: 0; border-top: 2px solid var(--brown); padding: 14px 0 0; }
+}
 .section.gold-tint { background: var(--gold-soft); }
 
 /* Language switching: default English, French shown when html[lang="fr"] */
