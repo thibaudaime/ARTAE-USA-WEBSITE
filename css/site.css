@@ -45,6 +45,11 @@ p { margin: 0 0 1em; }
 .section.cream { background: var(--cream); }
 .section.dark { background: var(--black); color: #eee; }
 .section.dark h2, .section.dark h3 { color: #fff; }
+.section.dark.slim { padding: 36px 0; }
+.section.dark.slim h2 { font-size: clamp(1.25rem, 2.2vw, 1.6rem); margin-bottom: .5em; }
+.section.dark.slim .checks { margin-bottom: 0; }
+.section.dark.slim .checks li { margin-bottom: 8px; }
+.section.dark.slim .panel { padding-top: 22px; padding-bottom: 22px; }
 .section.gold-tint { background: var(--gold-soft); }
 
 /* Language switching: default English, French shown when html[lang="fr"] */
