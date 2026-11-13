@@ -87,6 +87,28 @@
     });
   }
 
+
+  /* ---- Simple carousel (testimonials) ---- */
+  document.querySelectorAll('[data-carousel]').forEach(function (box) {
+    var track = box.querySelector('.tm-track');
+    var prev = box.querySelector('.tm-prev');
+    var next = box.querySelector('.tm-next');
+    if (!track) return;
+    function step() {
+      var s = track.querySelector('.tm-slide');
+      return s ? s.getBoundingClientRect().width + parseFloat(getComputedStyle(track).columnGap || 0) : 300;
+    }
+    function go(dir) {
+      var max = track.scrollWidth - track.clientWidth;
+      var target = track.scrollLeft + dir * step();
+      if (dir > 0 && track.scrollLeft >= max - 4) target = 0;
+      if (dir < 0 && track.scrollLeft <= 4) target = max;
+      track.scrollTo({ left: target, behavior: 'smooth' });
+    }
+    if (prev) prev.addEventListener('click', function () { go(-1); });
+    if (next) next.addEventListener('click', function () { go(1); });
+  });
+
   /* ---- Year ---- */
   var y = document.querySelector('#year');
   if (y) y.textContent = String(new Date().getFullYear());
