@@ -45,11 +45,14 @@ p { margin: 0 0 1em; }
 .section.cream { background: var(--cream); }
 .section.dark { background: var(--black); color: #eee; }
 .section.dark h2, .section.dark h3 { color: #fff; }
-.section.dark.slim { padding: 36px 0; }
-.section.dark.slim h2 { font-size: clamp(1.25rem, 2.2vw, 1.6rem); margin-bottom: .5em; }
+.section.dark.slim { padding: 16px 0; font-size: .92rem; }
+.section.dark.slim .split { gap: 32px; }
+.section.dark.slim h2 { font-size: clamp(1.1rem, 2vw, 1.35rem); margin-bottom: .4em; }
+.section.dark.slim h3 { font-size: 1rem; margin-bottom: .4em; }
 .section.dark.slim .checks { margin-bottom: 0; }
-.section.dark.slim .checks li { margin-bottom: 8px; }
-.section.dark.slim .panel { padding-top: 22px; padding-bottom: 22px; }
+.section.dark.slim .checks li { margin-bottom: 4px; line-height: 1.4; }
+.section.dark.slim .checks li::before { top: 3px; }
+.section.dark.slim .panel { padding: 10px 24px; }
 .section.gold-tint { background: var(--gold-soft); }
 
 /* Language switching: default English, French shown when html[lang="fr"] */
