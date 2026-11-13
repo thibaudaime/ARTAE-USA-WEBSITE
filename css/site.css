@@ -196,16 +196,25 @@ html[lang="fr"] .en { display: none !important; }
 .stat .big { font-size: 2.3rem; font-weight: 700; color: var(--black); line-height: 1; margin-bottom: 8px; }
 
 /* Steps */
-.steps { counter-reset: step; display: grid; gap: 18px; grid-template-columns: repeat(5, 1fr); }
-@media (max-width: 1000px) { .steps { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 600px) { .steps { grid-template-columns: 1fr; } }
-.step { background: #fff; border-radius: 14px; padding: 22px; border: 1px solid var(--line); }
-.step::before {
-  counter-increment: step; content: counter(step);
-  display: inline-flex; width: 36px; height: 36px; border-radius: 50%; background: var(--olive);
-  color: #fff; font-weight: 700; align-items: center; justify-content: center; margin-bottom: 12px;
+.steps { display: grid; gap: 38px; grid-template-columns: repeat(5, 1fr); align-items: stretch; }
+.step {
+  position: relative; text-align: center; padding: 30px 18px 28px;
+  background: linear-gradient(180deg, #fffdf9 0%, #fbf5ea 100%);
+  border: 1px solid var(--gold); border-radius: 30px; box-shadow: var(--shadow);
 }
-.step h3 { font-size: 1rem; }
+.step:not(:last-child)::after {
+  content: ""; position: absolute; top: 50%; right: -30px; transform: translateY(-50%);
+  border-style: solid; border-width: 17px 0 17px 24px; border-color: transparent transparent transparent var(--olive);
+  border-radius: 3px;
+}
+@media (max-width: 1000px) { .steps { grid-template-columns: repeat(2, 1fr); } .step:not(:last-child)::after { display: none; } }
+@media (max-width: 600px) {
+  .steps { grid-template-columns: 1fr; gap: 40px; }
+  .step:not(:last-child)::after { display: block; right: auto; left: 50%; top: auto; bottom: -31px; transform: translateX(-50%) rotate(90deg); }
+}
+.step-icon { width: 54px; height: 54px; margin: 0 auto 14px; display: block; color: var(--gold); }
+.step h3 { font-size: 1.15rem; margin-bottom: .7em; }
+.step p { color: var(--grey); line-height: 1.7; margin: 0; }
 
 /* Lists */
 .checks { list-style: none; padding: 0; margin: 0 0 1.2em; }
