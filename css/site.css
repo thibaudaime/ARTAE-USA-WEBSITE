@@ -3,6 +3,7 @@
 
 :root {
   --gold: #C69F63;
+  --brown: #8B5A2B;
   --gold-soft: rgba(198, 159, 99, .25);
   --olive: #717A27;
   --olive-dark: #5c641f;
@@ -212,7 +213,7 @@ html[lang="fr"] .en { display: none !important; }
   .steps { grid-template-columns: 1fr; gap: 40px; }
   .step:not(:last-child)::after { display: block; right: auto; left: 50%; top: auto; bottom: -31px; transform: translateX(-50%) rotate(90deg); }
 }
-.step-icon { width: 54px; height: 54px; margin: 0 auto 14px; display: block; color: var(--gold); }
+.step-icon { width: 30px; height: 30px; margin: 0 auto 12px; display: block; color: var(--brown); }
 .step h3 { font-size: 1.15rem; margin-bottom: .7em; }
 .step p { color: var(--grey); line-height: 1.7; margin: 0; }
 
