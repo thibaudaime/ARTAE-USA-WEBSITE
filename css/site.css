@@ -410,3 +410,7 @@ details p { margin-top: 10px; }
 .bloc:hover .bloc-normal, .bloc:focus .bloc-normal { opacity: 0; }
 .bloc:hover .bloc-zoom, .bloc:focus .bloc-zoom { color: var(--gold); background: #000; border-radius: 50%; padding: 9px; width: 40px; height: 40px; }
 @media (max-width: 600px) { .bloc { padding: 32px 24px 28px; } .bloc-icon { width: 56px; height: 56px; } }
+
+/* Slim CTA band (Services page) */
+.cta.cta-slim { padding: 16px 0; }
+.cta.cta-slim .btn { margin: 0; }
