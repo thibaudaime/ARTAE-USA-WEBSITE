@@ -419,3 +419,4 @@ details p { margin-top: 10px; }
 /* Slim CTA band (Services page) */
 .cta.cta-slim { padding: 16px 0; }
 .cta.cta-slim .btn { margin: 0; }
+.cta.cta-slim h2 { margin: 0 0 12px; font-size: 1.4rem; }
