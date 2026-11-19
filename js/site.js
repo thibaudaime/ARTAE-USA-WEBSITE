@@ -88,6 +88,26 @@
   }
 
 
+
+  /* ---- Webinar registration: opens the visitor's mail app with a pre-filled message ---- */
+  var wf = document.querySelector('#webinar-form');
+  if (wf) {
+    wf.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = new FormData(wf);
+      var name = (f.get('name') || '').toString().trim();
+      var mail = (f.get('email') || '').toString().trim();
+      var err = wf.querySelector('.form-err');
+      if (!name || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(mail) || !f.get('consent')) {
+        if (err) err.style.display = 'block';
+        return;
+      }
+      if (err) err.style.display = 'none';
+      var body = 'Nom / Name: ' + name + '\nEmail: ' + mail + '\nTéléphone / Phone: ' + (f.get('phone') || '') + '\n\nJe souhaite m\u2019inscrire au webinaire du 03/12.';
+      window.location.href = 'mailto:thibaud@artae.immo?subject=' + encodeURIComponent('Inscription webinaire du 03/12') + '&body=' + encodeURIComponent(body);
+    });
+  }
+
   /* ---- Simple carousel (testimonials) ---- */
   document.querySelectorAll('[data-carousel]').forEach(function (box) {
     var track = box.querySelector('.tm-track');
