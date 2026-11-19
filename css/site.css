@@ -167,7 +167,7 @@ html[lang="fr"] .en { display: none !important; }
 .hero.has-img .art { display: none; }
 .hero-home { background-image: url(../img/hero-home.jpg); }
 .hero-services { background-image: url(../img/hero-services.jpg); }
-.hero-academy { background-image: url(../img/hero-academy.jpg); }
+.hero-academy { background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/City_of_Miami%2C_FL._USA_%2850751668348%29.jpg/1280px-City_of_Miami%2C_FL._USA_%2850751668348%29.jpg"), url(../img/hero-academy.jpg); }
 .hero-florida { background-image: url(../img/hero-florida.jpg); }
 .hero-about { background-image: url(../img/hero-about.jpg); }
 .hero-contact { background-image: url(../img/hero-contact.jpg); }
