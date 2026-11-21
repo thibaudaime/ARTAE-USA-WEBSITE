@@ -40,8 +40,8 @@
   <div class="wrap">
     <span class="eyebrow"><span class="en">Contact</span><span class="fr">Contact</span></span>
     <h1><span class="en">Tell us about your Florida project.</span><span class="fr">Parlez-nous de votre projet en Floride.</span></h1>
-    <p class="lead en">A free 45-minute call, in French. We answer within two business days.</p>
-    <p class="lead fr">Un appel gratuit de 45 minutes, en français. Réponse sous deux jours ouvrés.</p>
+    <p class="lead en">A free 45-minute call, in French.</p>
+    <p class="lead fr">Un appel gratuit de 45 minutes, en français.</p>
     <p><a class="btn btn-gold" href="https://calendly.com/thibaud-aime/audit-strategique" target="_blank" rel="noopener"><span class="en">Book my 45-minute call</span><span class="fr">Réserver mon appel de 45 min</span></a></p>
   </div>
 </section>
@@ -59,11 +59,11 @@
           <div>
             <label for="project"><span class="en">Your project</span><span class="fr">Votre projet</span></label>
             <select id="project" name="project">
-              <option value="Second home / pied-à-terre">Second home / résidence secondaire</option>
-              <option value="Dollar diversification">Diversification (USD)</option>
-              <option value="Relocation to the US">Relocation / installation aux USA</option>
-              <option value="Webinar / seminar">Webinar / séminaire</option>
-              <option value="Other">Other / autre</option>
+              <option value="Résidence secondaire / pied-à-terre" data-en="Second home / pied-à-terre" data-fr="Résidence secondaire / pied-à-terre">Second home / pied-à-terre</option>
+              <option value="Diversification en dollars" data-en="Dollar diversification" data-fr="Diversification en dollars">Dollar diversification</option>
+              <option value="Installation aux USA" data-en="Relocation to the US" data-fr="Installation aux USA">Relocation to the US</option>
+              <option value="Webinaire / séminaire" data-en="Webinar / seminar" data-fr="Webinaire / séminaire">Webinar / seminar</option>
+              <option value="Autre" data-en="Other" data-fr="Autre">Other</option>
             </select>
           </div>
         </div>
@@ -78,7 +78,7 @@
         </div>
         <div>
           <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Where you live, how many weeks a year you would use the home, your timeline… / Où vous vivez, combien de semaines par an vous utiliseriez le bien, votre calendrier…"></textarea>
+          <textarea id="message" name="message" data-en="Where you live, how many weeks a year you would use the home, your timeline…" data-fr="Où vous vivez, combien de semaines par an vous utiliseriez le bien, votre calendrier…" placeholder="Where you live, how many weeks a year you would use the home, your timeline…"></textarea>
         </div>
         <label class="consent">
           <input type="checkbox" required>
@@ -89,8 +89,8 @@
       </form>
       <div class="form-ok">
         <h3><span class="en">Almost there</span><span class="fr">Presque fini</span></h3>
-        <p class="en">The online form will be connected shortly. For now, copy your message and send it to <b>thibaud@artae.immo</b>. We will reply within two business days.</p>
-        <p class="fr">Le formulaire en ligne sera connecté très bientôt. En attendant, copiez votre message et envoyez-le à <b>thibaud@artae.immo</b>. Réponse sous deux jours ouvrés.</p>
+        <p class="en">The online form will be connected shortly. For now, copy your message and send it to <b>thibaud@artae.immo</b>.</p>
+        <p class="fr">Le formulaire en ligne sera connecté très bientôt. En attendant, copiez votre message et envoyez-le à <b>thibaud@artae.immo</b>.</p>
         <pre id="form-out"></pre>
         <button class="btn btn-olive" type="button" id="copy-msg"><span class="en">Copy my message</span><span class="fr">Copier mon message</span></button>
       </div>
@@ -99,12 +99,10 @@
       <div class="panel">
         <h3><span class="en">What happens next</span><span class="fr">La suite</span></h3>
         <ul class="checks en">
-          <li>We read your message and reply within two business days.</li>
           <li>We book a free 45-minute video call, in French.</li>
           <li>You get a clear answer: Florida fits, Florida fits with changes, or Florida does not fit.</li>
         </ul>
         <ul class="checks fr">
-          <li>On lit votre message et on répond sous deux jours ouvrés.</li>
           <li>On fixe un appel vidéo gratuit de 45 minutes, en français.</li>
           <li>Vous repartez avec une réponse claire : la Floride convient, convient avec des ajustements, ou ne convient pas.</li>
         </ul>
@@ -177,7 +175,7 @@
   </div>
 </div>
 
-<script src="js/site.js"></script>
+<script src="js/site.js?v=20261121a"></script>
 <script>document.querySelectorAll('.yr').forEach(function(e){e.textContent=new Date().getFullYear();});</script>
 </body>
 </html>

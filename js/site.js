@@ -13,6 +13,12 @@
       btns[i].textContent = lang === 'en' ? 'FR' : 'EN';
       btns[i].setAttribute('aria-label', lang === 'en' ? 'Passer en français' : 'Switch to English');
     }
+    var tr = document.querySelectorAll('option[data-en], textarea[data-en]');
+    for (var k = 0; k < tr.length; k++) {
+      var txt = tr[k].getAttribute('data-' + lang);
+      if (tr[k].tagName === 'TEXTAREA') tr[k].setAttribute('placeholder', txt);
+      else tr[k].textContent = txt;
+    }
     var t = document.querySelector('title');
     if (t) {
       var en = t.getAttribute('data-en'), fr = t.getAttribute('data-fr');
