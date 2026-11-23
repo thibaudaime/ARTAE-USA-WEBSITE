@@ -115,12 +115,13 @@ html[lang="fr"] .en { display: none !important; }
   position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.96);
   backdrop-filter: blur(8px); border-bottom: 1px solid var(--line);
 }
-.header .wrap { display: flex; align-items: center; justify-content: space-between; height: 84px; gap: 16px; }
+.header .wrap { display: flex; align-items: center; justify-content: space-between; height: 84px; gap: 16px; max-width: 1320px; }
 .logo { display: inline-flex; align-items: center; color: var(--black); }
 .logo:hover { text-decoration: none; }
 .logo svg { height: 48px; width: auto; }
-.nav { display: flex; align-items: center; gap: 26px; }
-.nav a { color: var(--ink); font-weight: 600; font-size: .95rem; }
+.nav { display: flex; align-items: center; gap: 20px; }
+.nav a { color: var(--ink); font-weight: 600; font-size: .92rem; }
+.nav a:not(.btn) { white-space: nowrap; }
 .nav a:hover, .nav a.active { color: var(--olive); text-decoration: none; }
 .nav .btn { padding: 11px 18px; font-size: .9rem; }
 .nav .btn-black, .nav .btn-black:hover { color: #fff; background: var(--black); }
@@ -137,7 +138,7 @@ html[lang="fr"] .en { display: none !important; }
 }
 .burger span { display: block; width: 26px; height: 2px; background: var(--black); margin: 6px 0; }
 
-@media (max-width: 900px) {
+@media (max-width: 1280px) {
   .burger { display: block; }
   .nav {
     display: none; position: absolute; left: 0; right: 0; top: 84px; background: #fff;
@@ -421,3 +422,40 @@ details p { margin-top: 10px; }
 .cta.cta-slim { padding: 16px 0; }
 .cta.cta-slim .btn { margin: 0; }
 .cta.cta-slim h2 { margin: 0 0 12px; font-size: 1.4rem; }
+
+/* ---- Concierge page ---- */
+.hero.hero-cg { background-image: url(../img/hero-florida.jpg); min-height: min(78vh, 700px); display: flex; align-items: center; padding: 120px 0 110px; }
+.hero.hero-cg::before { z-index: 1; background: linear-gradient(180deg, rgba(0,0,0,.42) 0%, rgba(0,0,0,.58) 100%); }
+.hero-cg .cg-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.hero-cg .wrap { z-index: 2; width: 100%; }
+.hero-cg h1 { font-size: clamp(2rem, 4.6vw, 3.3rem); }
+@media (prefers-reduced-motion: reduce) { .hero-cg .cg-video { display: none; } }
+
+.js .reveal { opacity: 0; transform: translateY(26px); transition: opacity .8s ease, transform .8s ease; }
+.js .reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .js .reveal { opacity: 1; transform: none; transition: none; } }
+
+.cg-tabs { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 36px; }
+.cg-tab { font: inherit; font-weight: 700; padding: 12px 28px; border-radius: 999px; border: 1.5px solid var(--gold); background: transparent; color: var(--black); cursor: pointer; transition: background .25s, color .25s, border-color .25s; }
+.cg-tab:hover { background: rgba(198,159,99,.18); }
+.cg-tab.active { background: var(--black); color: #fff; border-color: var(--black); }
+.cg-panel { display: none; grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; }
+.cg-panel.active { display: grid; animation: cgfade .5s ease; }
+@keyframes cgfade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.cg-panel-img img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 16px; display: block; }
+.cg-panel-txt h3 { margin-top: 0; }
+
+.cg-cities { display: grid; gap: 0; }
+.cg-city { display: grid; grid-template-columns: 1.1fr 1fr; gap: 52px; align-items: center; margin-bottom: 68px; }
+.cg-city:last-child { margin-bottom: 0; }
+.cg-city.rev .cg-city-img { order: 2; }
+.cg-city-img { overflow: hidden; border-radius: 16px; }
+.cg-city-img img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; transition: transform 1.4s ease; }
+.cg-city:hover .cg-city-img img { transform: scale(1.06); }
+.cg-city-num { display: block; font-weight: 800; font-size: 2.2rem; color: var(--gold); line-height: 1; margin-bottom: 8px; }
+.cg-city-txt h3 { font-size: 1.7rem; margin-top: 0; }
+@media (max-width: 800px) {
+  .cg-panel, .cg-city { grid-template-columns: 1fr; gap: 24px; }
+  .cg-city.rev .cg-city-img { order: 0; }
+  .cg-city { margin-bottom: 48px; }
+}

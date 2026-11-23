@@ -2,6 +2,7 @@
 (function () {
   var html = document.documentElement;
 
+  document.documentElement.classList.add('js');
   function store(key, val) { try { localStorage.setItem(key, val); } catch (e) {} }
   function read(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
 
@@ -138,4 +139,35 @@
   /* ---- Year ---- */
   var y = document.querySelector('#year');
   if (y) y.textContent = String(new Date().getFullYear());
+
+  /* ---- Concierge page: tabs, scroll reveal, video ---- */
+  var cgTabs = document.querySelectorAll('.cg-tab');
+  for (var q = 0; q < cgTabs.length; q++) {
+    cgTabs[q].addEventListener('click', function () {
+      var id = this.id.replace('tab-', '');
+      var all = document.querySelectorAll('.cg-tab');
+      for (var a = 0; a < all.length; a++) {
+        var on = all[a] === this;
+        all[a].classList.toggle('active', on);
+        all[a].setAttribute('aria-selected', on ? 'true' : 'false');
+      }
+      var panels = document.querySelectorAll('.cg-panel');
+      for (var b = 0; b < panels.length; b++) panels[b].classList.toggle('active', panels[b].id === 'panel-' + id);
+    });
+  }
+  var revs = document.querySelectorAll('.reveal');
+  if (revs.length) {
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        for (var r = 0; r < entries.length; r++) {
+          if (entries[r].isIntersecting) { entries[r].target.classList.add('in'); io.unobserve(entries[r].target); }
+        }
+      }, { threshold: 0.15 });
+      for (var r2 = 0; r2 < revs.length; r2++) io.observe(revs[r2]);
+    } else {
+      for (var r3 = 0; r3 < revs.length; r3++) revs[r3].classList.add('in');
+    }
+  }
+  var cgVideo = document.querySelector('.cg-video');
+  if (cgVideo && cgVideo.play) { try { var pr = cgVideo.play(); if (pr && pr.catch) pr.catch(function () {}); } catch (e2) {} }
 })();
