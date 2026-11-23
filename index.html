@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/site.css?v=20261123b">
+<link rel="stylesheet" href="css/site.css?v=20261123c">
 </head>
 <body>
 <div class="topbar">
@@ -37,6 +37,11 @@
 </header>
 
 <section class="hero has-img hero-home">
+  <video class="cg-video" autoplay muted loop playsinline preload="metadata" poster="img/hero-home.jpg" aria-hidden="true">
+    <source src="https://assets.mixkit.co/videos/44385/44385-1080.mp4" type="video/mp4">
+    <source src="https://assets.mixkit.co/videos/44385/44385-720.mp4" type="video/mp4">
+    <source src="https://assets.mixkit.co/videos/44385/44385-360.mp4" type="video/mp4">
+  </video>
   <svg class="art" viewBox="0 0 520 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <circle cx="380" cy="120" r="70" fill="#C69F63"/>
     <g stroke="#C69F63" stroke-width="2" fill="none">
@@ -410,7 +415,7 @@
   </div>
 </div>
 
-<script src="js/site.js?v=20261121a"></script>
+<script src="js/site.js?v=20261123c"></script>
 <script>document.querySelectorAll('.yr').forEach(function(e){e.textContent=new Date().getFullYear();});</script>
 </body>
 </html>
