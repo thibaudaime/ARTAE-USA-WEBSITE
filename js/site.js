@@ -171,3 +171,13 @@
   var cgVideo = document.querySelector('.cg-video');
   if (cgVideo && cgVideo.play) { try { var pr = cgVideo.play(); if (pr && pr.catch) pr.catch(function () {}); } catch (e2) {} }
 })();
+
+/* ---- Home hero video: slow motion ---- */
+(function () {
+  var hv = document.querySelector('.hero-home .cg-video');
+  if (!hv) return;
+  var slow = function () { try { hv.playbackRate = 0.5; } catch (e) {} };
+  slow();
+  hv.addEventListener('loadedmetadata', slow);
+  hv.addEventListener('play', slow);
+})();
