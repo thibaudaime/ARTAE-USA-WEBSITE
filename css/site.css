@@ -465,3 +465,26 @@ details p { margin-top: 10px; }
 .hero-home::before { z-index: 1; }
 .hero-home .wrap { position: relative; z-index: 2; }
 @media (prefers-reduced-motion: reduce) { .hero-home .cg-video { display: none; } }
+
+/* ---- Property Care page ---- */
+.hero.hero-pc { background-image: url(../img/cg-home.jpg); }
+.pc-plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: stretch; margin-top: 8px; }
+.pc-plan { position: relative; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 34px 28px 28px; display: flex; flex-direction: column; }
+.pc-plan.pc-best { border: 2px solid var(--gold); transform: translateY(-8px); }
+.pc-plan h3 { margin: 0 0 6px; font-size: 1.35rem; }
+.pc-price { font-size: 2.6rem; font-weight: 800; color: var(--olive); line-height: 1.1; margin-bottom: 14px; }
+.pc-price small { font-size: 1rem; font-weight: 600; color: var(--grey); margin-left: 4px; }
+.pc-plan .checks { flex: 1; margin-bottom: 22px; }
+.pc-plan .btn { align-self: flex-start; }
+.pc-badge { position: absolute; top: -14px; left: 24px; background: var(--gold); color: var(--black); font-size: .72rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 6px 12px; border-radius: 999px; }
+.pc-note { text-align: center; font-size: .9rem; color: var(--grey); margin: 28px auto 0; max-width: 720px; }
+.pc-cities { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.pc-cities li { border: 1px solid var(--line); border-radius: 999px; padding: 10px 20px; font-weight: 600; background: var(--cream); }
+@media (max-width: 900px) { .pc-plans { grid-template-columns: 1fr; } .pc-plan.pc-best { transform: none; } }
+/* nav: 8 tabs */
+.nav { gap: 14px; }
+.nav a { font-size: .88rem; }
+.nav .btn { white-space: nowrap; padding-left: 16px; padding-right: 16px; }
+.pc-badge { white-space: nowrap; font-size: .68rem; }
+.pc-plan.pc-best { padding-top: 42px; }
+@media (max-width: 1400px) { .nav { gap: 11px; } .nav a { font-size: .84rem; } }
