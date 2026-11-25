@@ -510,3 +510,7 @@ details p { margin-top: 10px; }
 @media (max-width: 1280px) { .header .logo { margin-left: 0; } }
 /* services: centre the last card when the count is odd */
 @media (min-width: 601px) { .grid-2 > .bloc:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; width: calc(50% - 12px); } }
+
+.bloc-head-pc h3 { flex: 1; }
+.bloc-icon-pc { width: 98px; height: 98px; }
+@media (max-width: 600px) { .bloc-icon-pc { width: 72px; height: 72px; } }
