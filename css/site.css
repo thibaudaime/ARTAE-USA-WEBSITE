@@ -506,3 +506,5 @@ details p { margin-top: 10px; }
 .nav a { font-size: .85rem; }
 .nav .btn { font-size: .85rem; padding-left: 14px; padding-right: 14px; }
 @media (max-width: 1400px) { .nav { gap: 10px; } .nav a { font-size: .8rem; } }
+.header .logo { margin-left: 18px; }
+@media (max-width: 1280px) { .header .logo { margin-left: 0; } }
