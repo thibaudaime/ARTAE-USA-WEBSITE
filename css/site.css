@@ -488,3 +488,5 @@ details p { margin-top: 10px; }
 .pc-badge { white-space: nowrap; font-size: .68rem; }
 .pc-plan.pc-best { padding-top: 42px; }
 @media (max-width: 1400px) { .nav { gap: 11px; } .nav a { font-size: .84rem; } }
+
+.pc-setup { font-size: .88rem; font-weight: 600; color: var(--grey); margin: -6px 0 16px; }
