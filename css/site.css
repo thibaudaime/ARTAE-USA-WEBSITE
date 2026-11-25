@@ -508,3 +508,5 @@ details p { margin-top: 10px; }
 @media (max-width: 1400px) { .nav { gap: 10px; } .nav a { font-size: .8rem; } }
 .header .logo { margin-left: 18px; }
 @media (max-width: 1280px) { .header .logo { margin-left: 0; } }
+/* services: centre the last card when the count is odd */
+@media (min-width: 601px) { .grid-2 > .bloc:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; width: calc(50% - 12px); } }
