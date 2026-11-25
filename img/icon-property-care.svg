@@ -1,21 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="#C69F63" stroke="#000" stroke-width="1.6" stroke-linejoin="round">
   <!-- watering can -->
   <g transform="translate(4 8) scale(.8) rotate(-22 66 24)">
     <path d="M86 20 C98 18 100 40 86 40" fill="none" stroke="#C69F63" stroke-width="4.5" stroke-linecap="round"/>
-    <path d="M52 12 H82 Q88 12 88 18 V40 Q88 46 82 46 H58 Q52 46 52 40 Z" fill="#C69F63"/>
-    <path d="M52 12 H66 V46 H58 Q52 46 52 40 Z" fill="#B58D52"/>
-    <rect x="58" y="8" width="16" height="6" rx="3" fill="#C69F63"/>
-    <path d="M53 34 L33 22 L31 27 L53 42 Z" fill="#C69F63"/>
-    <path d="M26 15 L37 20 L34 32 L22 27 Z" fill="#C69F63" transform="rotate(-8 30 24)"/>
+    <path d="M52 12 H82 Q88 12 88 18 V40 Q88 46 82 46 H58 Q52 46 52 40 Z"/>
+    <rect x="58" y="8" width="16" height="6" rx="3"/>
+    <path d="M53 34 L33 22 L31 27 L53 42 Z"/>
+    <path d="M26 15 L37 20 L34 32 L22 27 Z" transform="rotate(-8 30 24)"/>
   </g>
   <!-- drops -->
-  <path d="M26 42 C26 42 21.5 47.5 21.5 50 A4.5 4.5 0 0 0 30.5 50 C30.5 47.5 26 42 26 42 Z" fill="#F0E7D8"/>
-  <path d="M38 49 C38 49 34.5 53 34.5 55 A3.5 3.5 0 0 0 41.5 55 C41.5 53 38 49 38 49 Z" fill="#F0E7D8"/>
+  <path d="M26 42 C26 42 21.5 47.5 21.5 50 A4.5 4.5 0 0 0 30.5 50 C30.5 47.5 26 42 26 42 Z" stroke="none"/>
+  <path d="M38 49 C38 49 34.5 53 34.5 55 A3.5 3.5 0 0 0 41.5 55 C41.5 53 38 49 38 49 Z" stroke="none"/>
   <!-- plant -->
-  <rect x="32" y="68" width="4" height="9" rx="2" fill="#717A27"/>
-  <path d="M34 70 C24 70 20 63 21 58 C29 58 35 63 34 70 Z" fill="#8A9533"/>
-  <path d="M34 72 C44 72 48 66 47 61 C39 61 33 66 34 72 Z" fill="#717A27"/>
+  <rect x="32" y="60" width="4" height="18" rx="2" stroke="none"/>
+  <path d="M34 70 C24 70 20 63 21 58 C29 58 35 63 34 70 Z"/>
+  <path d="M34 72 C44 72 48 66 47 61 C39 61 33 66 34 72 Z"/>
   <!-- pot -->
-  <path d="M18 77 H50 L47 92 H21 Z" fill="#8B5A2B"/>
-  <rect x="16" y="74" width="36" height="6" rx="2" fill="#A06A35"/>
+  <path d="M18 77 H50 L47 92 H21 Z"/>
+  <rect x="16" y="74" width="36" height="6" rx="2"/>
 </svg>
