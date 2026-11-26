@@ -519,3 +519,17 @@ details p { margin-top: 10px; }
 .pc-price small { font-size: .76rem; }
 @media (min-width: 901px) and (max-width: 1180px) { .pc-price small { font-size: .7rem; } }
 @media (max-width: 420px) { .pc-price { font-size: 2.2rem; } .pc-price small { font-size: .7rem; } }
+
+/* Black header with the official ARTAE USA logo */
+.header { background: #030304; border-bottom: 1px solid rgba(198,159,99,.45); backdrop-filter: none; }
+.logo img { height: 54px; width: auto; display: block; flex-shrink: 0; }
+.footer .logo img { height: 60px; }
+.nav a { color: #fff; }
+.nav a:hover, .nav a.active { color: var(--gold); }
+.nav .btn-black, .nav .btn-black:hover { background: var(--gold); color: #000; }
+.nav .btn-black:hover { background: #fff; }
+.header .lang { border-color: #fff; color: #fff; }
+.header .lang:hover { background: #fff; color: #000; }
+.header .burger span { background: #fff; }
+@media (max-width: 1280px) { .nav { background: #030304; border-bottom: 1px solid rgba(198,159,99,.45); } }
+@media (max-width: 600px) { .logo img { height: 46px; } }
