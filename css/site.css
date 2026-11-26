@@ -538,3 +538,15 @@ details p { margin-top: 10px; }
 @media (min-width: 1361px) {
   .nav { justify-content: space-between; gap: 16px; margin-left: 48px; margin-right: 12px; }
 }
+
+/* Very compact CTA band (home page): one short row */
+.cta.cta-mini { padding: 12px 0; text-align: left; }
+.cta.cta-mini .wrap { display: flex; align-items: center; justify-content: space-between; gap: 8px 28px; flex-wrap: wrap; }
+.cta.cta-mini .cta-text { display: flex; align-items: baseline; gap: 4px 18px; flex-wrap: wrap; min-width: 0; }
+.cta.cta-mini h2 { margin: 0; font-size: 1.05rem; line-height: 1.3; }
+.cta.cta-mini p { margin: 0; font-size: .9rem; line-height: 1.3; }
+.cta.cta-mini .btn { margin: 0; padding: 8px 18px; font-size: .85rem; white-space: nowrap; }
+@media (max-width: 700px) { .cta.cta-mini { text-align: center; } .cta.cta-mini .wrap, .cta.cta-mini .cta-text { justify-content: center; text-align: center; } }
+.cta.cta-mini .wrap { flex-wrap: nowrap; }
+.cta.cta-mini .cta-text { flex-direction: column; align-items: flex-start; gap: 2px; flex: 1 1 auto; }
+@media (max-width: 700px) { .cta.cta-mini .wrap { flex-wrap: wrap; } .cta.cta-mini .cta-text { align-items: center; } }
