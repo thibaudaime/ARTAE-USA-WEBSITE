@@ -550,3 +550,9 @@ details p { margin-top: 10px; }
 .cta.cta-mini .wrap { flex-wrap: nowrap; }
 .cta.cta-mini .cta-text { flex-direction: column; align-items: flex-start; gap: 2px; flex: 1 1 auto; }
 @media (max-width: 700px) { .cta.cta-mini .wrap { flex-wrap: wrap; } .cta.cta-mini .cta-text { align-items: center; } }
+
+/* CTA bands: cream background (brand charter), green moves to the buttons */
+.cta { background: var(--cream); color: var(--black); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.cta h2, .cta p { color: var(--black); }
+.cta .btn-black, .cta .btn { background: var(--olive); color: #fff; }
+.cta .btn-black:hover, .cta .btn:hover { background: #5d6520; color: #fff; }
