@@ -516,3 +516,6 @@ details p { margin-top: 10px; }
 @media (max-width: 600px) { .bloc-icon-pc { width: 72px; height: 72px; } }
 .pc-price small { white-space: nowrap; font-size: .82rem; }
 @media (min-width: 901px) and (max-width: 1180px) { .pc-price { font-size: 2.2rem; } .pc-price small { font-size: .74rem; } }
+.pc-price small { font-size: .76rem; }
+@media (min-width: 901px) and (max-width: 1180px) { .pc-price small { font-size: .7rem; } }
+@media (max-width: 420px) { .pc-price { font-size: 2.2rem; } .pc-price small { font-size: .7rem; } }
