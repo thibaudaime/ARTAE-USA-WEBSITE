@@ -181,3 +181,14 @@
   hv.addEventListener('loadedmetadata', slow);
   hv.addEventListener('play', slow);
 })();
+
+/* Clean address bar: show /about instead of /about.html (cosmetic, no reload) */
+(function () {
+  try {
+    var path = window.location.pathname;
+    var clean = path.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+    if (clean !== path && window.history && history.replaceState) {
+      history.replaceState(null, '', clean + window.location.search + window.location.hash);
+    }
+  } catch (e) {}
+})();
