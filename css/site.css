@@ -138,7 +138,7 @@ html[lang="fr"] .en { display: none !important; }
 }
 .burger span { display: block; width: 26px; height: 2px; background: var(--black); margin: 6px 0; }
 
-@media (max-width: 1280px) {
+@media (max-width: 1360px) {
   .burger { display: block; }
   .nav {
     display: none; position: absolute; left: 0; right: 0; top: 84px; background: #fff;
@@ -507,7 +507,7 @@ details p { margin-top: 10px; }
 .nav .btn { font-size: .85rem; padding-left: 14px; padding-right: 14px; }
 @media (max-width: 1400px) { .nav { gap: 10px; } .nav a { font-size: .8rem; } }
 .header .logo { margin-left: 18px; }
-@media (max-width: 1280px) { .header .logo { margin-left: 0; } }
+@media (max-width: 1360px) { .header .logo { margin-left: 0; } }
 /* services: centre the last card when the count is odd */
 @media (min-width: 601px) { .grid-2 > .bloc:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; width: calc(50% - 12px); } }
 
@@ -531,5 +531,10 @@ details p { margin-top: 10px; }
 .header .lang { border-color: #fff; color: #fff; }
 .header .lang:hover { background: #fff; color: #000; }
 .header .burger span { background: #fff; }
-@media (max-width: 1280px) { .nav { background: #030304; border-bottom: 1px solid rgba(198,159,99,.45); } }
+@media (max-width: 1360px) { .nav { background: #030304; border-bottom: 1px solid rgba(198,159,99,.45); } }
 @media (max-width: 600px) { .logo img { height: 46px; } }
+
+/* spread the tabs across the free space between the logo and the language button */
+@media (min-width: 1361px) {
+  .nav { justify-content: space-between; gap: 16px; margin-left: 48px; margin-right: 12px; }
+}
