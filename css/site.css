@@ -556,3 +556,6 @@ details p { margin-top: 10px; }
 .cta h2, .cta p { color: var(--black); }
 .cta .btn-black, .cta .btn { background: var(--olive); color: #fff; }
 .cta .btn-black:hover, .cta .btn:hover { background: #5d6520; color: #fff; }
+
+/* Home: dark promise band, single centred list (no titles) */
+.section.dark.slim .wrap-single .panel { background: none; border: 0; border-radius: 0; padding: 6px 0; max-width: 900px; margin: 0 auto; }
